@@ -76,6 +76,10 @@ BOARD_KERNEL_CMDLINE := \
     lpm_levels.sleep_disabled=1 \
     service_locator.enable=1
 
+# Set Header version for bootimage
+BOARD_BOOTIMG_HEADER_VERSION := 1
+BOARD_MKBOOTIMG_ARGS := --header_version $(BOARD_BOOTIMG_HEADER_VERSION)
+
 # Media
 TARGET_USES_ION := true
 
