@@ -61,6 +61,9 @@ ro.soc.model=SM8150
 # Crypto
 ro.crypto.volume.filenames_mode=aes-256-cts
 
+# Dalvik
+dalvik.vm.systemuicompilerfilter=speed
+
 # DPM
 persist.vendor.dpmhalservice.enable=1
 
