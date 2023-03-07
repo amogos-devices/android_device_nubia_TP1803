@@ -302,7 +302,8 @@ PRODUCT_COPY_FILES += \
 PRODUCT_SOONG_NAMESPACES += \
     $(LOCAL_PATH) \
     hardware/google/interfaces \
-    hardware/google/pixel
+    hardware/google/pixel \
+    vendor/nxp/nfc
 
 # Telephony
 PRODUCT_PACKAGES += \
