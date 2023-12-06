@@ -1,0 +1,24 @@
+# Firmware - from Nubia Z20 (NX627J) Android R V320 RKQ1.200826.002 and
+# where necessary repacked with TP1803 stock files, except for ABL which
+# is built from source..
+
+BTFM.bin
+NON-HLOS.bin
+abl.elf
+aop.mbn
+cmnlib.mbn
+cmnlib64.mbn
+devcfg.mbn
+dspso.bin
+hyp.mbn
+imagefv.elf
+km4.mbn
+multi_image.mbn
+parameter.img
+qupv3fw.elf
+splash.bin
+storsec.mbn
+tz.mbn
+uefi_sec.mbn
+xbl.bin
+xbl_config.bin
